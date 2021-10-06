@@ -11,9 +11,8 @@
 </head>
 
 <body>
-
     @livewire('counter')
-    @livewireStyles
+    @livewireScripts
 </body>
 
 </html>
