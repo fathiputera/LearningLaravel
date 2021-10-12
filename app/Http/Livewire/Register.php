@@ -20,7 +20,8 @@ class Register extends Component
             'form.name'     => 'required',
             'form.password' => 'required|confirmed',
         ]);
-
+        User::create($this->form);
+        return redirect(route('login'));
     }
 
     public function render()
