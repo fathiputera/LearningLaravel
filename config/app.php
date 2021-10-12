@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'https://learninglaravel.tyhmj5iyaq-dv13xzrmv4gq.p.runcloud.link/'),
 
     'asset_url' => env('ASSET_URL', null),
 
