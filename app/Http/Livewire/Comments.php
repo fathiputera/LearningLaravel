@@ -19,7 +19,7 @@ class Comments extends Component
 
     public $newComment;
     public $image;
-    public $ticketId;
+    public $ticketId =1 ;
 
     protected $listeners = [
         'fileUpload'     => 'handleFileUpload',

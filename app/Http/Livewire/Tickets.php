@@ -7,7 +7,7 @@ use Livewire\Component;
 
 class Tickets extends Component
 {
-    public $active ;
+    public $active = 1;
 
     protected $listeners = ['ticketSelected'];
 
